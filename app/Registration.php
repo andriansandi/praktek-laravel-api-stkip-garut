@@ -12,4 +12,6 @@ use Illuminate\Database\Eloquent\Model;
 class Registration extends Model
 {
     protected $table = 'registration';
+
+    protected $fillable = ['nama_lengkap','jenis_kelamin','no_ktp','agama','alamat','no_hp','email'];
 }
